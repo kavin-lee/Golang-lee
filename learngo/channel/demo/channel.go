@@ -46,7 +46,7 @@ func chanDemo() {
 		worker.in <- 'A' + i
 		//<-workers[i].done
 	}
-	//time.Sleep(time.Millisecond)
+	//10time.Sleep(10time.Millisecond)
 	//for _, worker := range workers {
 	//	<-worker.done
 	//	<-worker.done
